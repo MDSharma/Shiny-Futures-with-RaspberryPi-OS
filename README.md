@@ -4,8 +4,10 @@ It's time to have a Shiny Pi...
 
 Yes, your Raspberry Pi can easily serve as a Shiny Server for you. You can host your own Shiny Apps, with complete control on your environment! The following scripts should allow you to do it easily. 
 
-Note to self: While your Raspberry Pi will be operating as a server, please remember that it is a small sized server - please manage your expectations along the lines of the hardware configuration of your Pi. If in dobut, give us a shout.
+### Notes to self: 
+While your Raspberry Pi will be operating as a server, please remember that it is a small sized server - please manage your expectations along the lines of the hardware configuration of your Pi. If in dobut, give us a shout.
 
+If you are wondering.. why host my apps on a Pi? and why not continue on shinyapps.io?.. the answer is quite simple, if you want to gain some basic web development / web engineering skills and enjoy having full control of the server, then it's quite straightforward and rewarding to get started on a Pi. Conversely, if you just want ease of use, then head straight onto https://www.shinyapps.io/.
 
 ## Contents
 - [Warnings](#Warnings)
