@@ -31,7 +31,7 @@ These scripts are provided "as is" with no warranty of any kind. As such, users 
 
 The provided Stable_RPiShinyServer.sh script will install the latest Shiny Server distribution along with the stable R version via the following command (N.B. the script takes awhile to run due to the R library installations):
 ```bash
-wget -O - https://raw.githubusercontent.com/pjaselin/ShinyServer_On_RaspberryPi/master/StableInstall_RPiShinyServer.sh | bash
+wget -O - https://raw.githubusercontent.com/MDSharma/Shiny-Futures-with-RaspberryPi-OS/master/StableInstall_RPiShinyServer.sh | bash
 ```
 
 ## Installation with Backport R
@@ -66,12 +66,12 @@ echo 'deb http://cloud.r-project.org/bin/linux/debian stretch-cran35/' | sudo te
 
 #### Finally Install Shiny Server and R
 ```bash
-wget -O - https://raw.githubusercontent.com/pjaselin/ShinyServer_On_RaspberryPi/master/StableInstall_RPiShinyServer.sh | bash
+wget -O - https://raw.githubusercontent.com/MDSharma/Shiny-Futures-with-RaspberryPi-OS/master/StableInstall_RPiShinyServer.sh | bash
 ```
 
 ## Uninstall Shiny Server and R
 To remove Shiny Server AND R, please run the following command to execute the Uninstall_RPiShinyServer.sh script:
 ```bash
-wget -O - https://raw.githubusercontent.com/pjaselin/ShinyServer_On_RaspberryPi/master/Uninstall_RPiShinyServer.sh | bash
+wget -O - https://raw.githubusercontent.com/MDSharma/Shiny-Futures-with-RaspberryPi-OS/master/Uninstall_RPiShinyServer.sh | bash
 ```
 If you would only like to remove Shiny Server, please look into this script and only use what you need.
